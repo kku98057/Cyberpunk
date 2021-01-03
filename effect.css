@@ -1,0 +1,34 @@
+
+header .main_banner .bn_effect_wrap .bn_effect{
+    position: absolute;
+}
+
+header .main_banner .bn_effect_wrap .effect_1{
+    background-color: white;
+    width:0px;
+    height:0px;
+    /* transform: rotate(-25deg); */
+    top:67px;
+    
+}
+header .main_banner .bn_effect_wrap .effect_2{
+    border:3px solid rgba(255,255,255);
+    width:20px;
+    transform: rotate(40deg);
+    top:30px;
+    left:200px;
+}
+header .main_banner .bn_effect_wrap .effect_3{
+    border:3px solid rgba(255,255,255);
+    width:20px;
+    transform: rotate(40deg);
+    top:30px;
+    left:200px;
+}
+.bn_effect_wrap:hover > .effect_1{
+    width:210px;
+    height:5px;
+    /* transition-duration: 0.5s; */
+    /* border:3px solid rgba(255,255,3); */
+}
+
